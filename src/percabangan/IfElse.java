@@ -1,17 +1,14 @@
 package percabangan;
 
 public class IfElse {
-    public static void  main(String[] args) {
-        double totalBelanja = 53000;
-        double uangDiDompet = 25000;
+    public static void main(String[] args) {
+        double totalBelanja = 25000;
+        double uangDiDompet = 50000;
 
-        if(uangDiDompet<totalBelanja){
-            System.out.println("Uang Kurang, Kurangi jajan anda");
-        }else if (uangDiDompet>totalBelanja){
-            double angsulan = uangDiDompet - totalBelanja;
-            System.out.println("Uang Cukup, Kembalian);
-        }else{
-            System.out.println("Uang Pass.. OKE..");
+        if (uangDiDompet < totalBelanja) {
+            System.out.println("Uang kurang, kurangi jajan anda");
+        } else {
+            System.out.println("Uang Cukup, Terimakasih");
         }
     }
 }
